@@ -21,6 +21,10 @@
         </div>
     </center>
     <style>
+
+
+
+
         .email{
             border-color: rgb(28, 205, 25);
             border-style: solid;
@@ -85,9 +89,10 @@
             border-radius: 15px;
             border-style: solid;
             height: 250px;
-            width: 400px;
+            width: clamp(150px, 400px, 400px);
             border-width: 5px;
             transition-duration: 0.5s;
+
 
         }
         .container:hover{
@@ -96,7 +101,7 @@
             border-radius: 15px;
             border-style: solid;
             height: 300px;
-            width: 420px;
+            width: clamp(150px, 400px, 400px);
             border-width: 5px;
             padding-top: 10px;
         }
@@ -104,9 +109,4 @@
 
     </style>
 
-    <script>
-        var username = document.getElementById("username").value
-        var pass = document.getElementById("pass").value
-        
-    </script>
 </html>
